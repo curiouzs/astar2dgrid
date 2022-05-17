@@ -4,7 +4,9 @@
 To develop a code to find the route from the source to the destination point using A* algorithm for 2D grid world.
 
 ## THEORY
-Explain the problem statement
+Informally speaking, A* Search algorithms, unlike other traversal techniques, it has “brains”. What it means is that it is really a smart algorithm which separates it from the other conventional algorithms. This fact is cleared in detail in below sections. 
+And it is also worth mentioning that many games and web-based maps use this algorithm to find the shortest path very efficiently (approximation). 
+A* search finds the shortest path through a search space to goal state using heuristic function. This technique finds minimal cost solutions and is directed to a goal state called A* search. In A*, the * is written for optimality purpose.
 
 ## DESIGN STEPS
 
@@ -199,6 +201,7 @@ path_states(s1)
 ![Screenshot (69)](https://user-images.githubusercontent.com/75234646/168859268-afe1505f-6a2e-40db-9cb9-f891dde621ec.png)
 
 The algorithm is able to find the solution path for the given problem. But the solution path, might not be the shortest path to reach the goal state.
+It is better that best first search.
 
 ## RESULT:
 Hence, A* Algorithm was implemented to find the route from the source to the destination point in a 2D gird World.
