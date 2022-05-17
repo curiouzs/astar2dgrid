@@ -12,16 +12,23 @@ Explain the problem statement
 Build a 2D grid world with initial state , goal state and obstacles.
 
 ### STEP 2:
-Using the A* search find the shortest and best route.
+Set the initial and goal state:
+Initial State: (1,3)
+Goal State: ()
 
 ### STEP 3:
-A* search uses both g(n) and h(n) combined.
+Mention the Obstacles in the 2D grid World
 
 ### STEP 4:
-Print the Route 
+Define the function for the distance function for the heuristic function
 
+### STEP 5:
+Pass all the values to the GirdProblem, and print the solution path.
 
-## Draw the 2D 
+## Draw the 2D
+
+![Screenshot (69)](https://user-images.githubusercontent.com/75234646/168859703-763d9961-ee26-4db4-ac55-5ab6e3a51ec2.png)
+
 
 ## PROGRAM
 
@@ -177,7 +184,9 @@ def g(n):
     return best_first_search(problem, f=lambda n: g(n) + h(n))
 
 
-grid1 = GridProblem(initial=(10,10), goal =(20,20) ,obstacles={(13,13),(18,18)})      
+obstacles = {(1,9),(2,9),(3,3),(3,6),(4,5),(5,4),(5,5),(6,9),(6,10),(7,7),(8,1),(8,4),(8,5),(9,1),(10,6)}
+
+grid1 = GridProblem(initial=(1,3), goal =(9,9) ,obstacles=obstacles)      
 
 s1 = astar_search(grid1)
 
@@ -187,6 +196,9 @@ path_states(s1)
 ```
 ## OUTPUT:
 
-Explain the Completeness and complexity of the algorithm:
+![Screenshot (69)](https://user-images.githubusercontent.com/75234646/168859268-afe1505f-6a2e-40db-9cb9-f891dde621ec.png)
+
+The algorithm is able to find the solution path for the given problem. But the solution path, might not be the shortest path to reach the goal state.
 
 ## RESULT:
+Hence, A* Algorithm was implemented to find the route from the source to the destination point in a 2D gird World.
