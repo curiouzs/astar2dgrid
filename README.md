@@ -9,12 +9,16 @@ Explain the problem statement
 ## DESIGN STEPS
 
 ### STEP 1:
-Build a 2D grid world with initial state , goal state and obstacles:
+Build a 2D grid world with initial state , goal state and obstacles.
 
 ### STEP 2:
+Using the A* search find the shortest and best route.
 
+### STEP 3:
+A* search uses both g(n) and h(n) combined.
 
-### STEP 
+### STEP 4:
+Print the Route 
 
 
 ## Draw the 2D 
