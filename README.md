@@ -29,7 +29,7 @@ Pass all the values to the GirdProblem, and print the solution path.
 
 ## Draw the 2D
 
-![Screenshot (69)](https://user-images.githubusercontent.com/75234646/168859703-763d9961-ee26-4db4-ac55-5ab6e3a51ec2.png)
+![WhatsApp Image 2022-05-17 at 9 42 09 PM](https://user-images.githubusercontent.com/75234646/168860681-0e55a193-d4df-45a2-b9b0-83b9f360b972.jpeg)
 
 
 ## PROGRAM
